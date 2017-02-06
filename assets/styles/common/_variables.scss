@@ -1,0 +1,30 @@
+
+
+
+
+// Grid settings
+$enable-flex:          					true;
+$main-sm-columns:       				12;
+$sidebar-sm-columns:    				4;
+
+// Colors
+$brand-primary:        		 			#002042;
+$brand-primary-dark:					#001934;
+$brand-secondary:						#ef6f00;
+$brand-secondary-dark:					#d76300;
+$brand-complimentary:					#4cb8e7;
+$brand-complimentary-dark:				#3c93b8;
+$brand-medium:							#2777B1;
+$brand-medium-dark:						#236B9F;
+
+$sans-serif-mont:      					'Montserrat', sans-serif;
+$sans-serif-lato:					 	'Lato', sans-serif;
+
+
+@mixin transition($ease) {
+	-webkit-transition:$ease;
+	   -moz-transition:$ease;
+	   	 -o-transition:$ease;
+	   	 	transition:$ease;
+}
+

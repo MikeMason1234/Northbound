@@ -1,0 +1,90 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+.contact-section{
+	background-color: $brand-primary;
+	padding: 30px 0px;
+	.request{
+		display: none;
+	}
+	a{
+		color: white;
+		text-decoration: none;
+		text-align: center !important;
+	}
+	h2{
+
+	}
+	p{
+		padding-bottom: 10px;
+		color: white;
+	}
+	.btn.contact-form{
+		background: $brand-secondary;
+		border: 2px solid $brand-secondary;
+		color: #fff;
+		font-size:1em;
+		padding: 10px 55px;	
+		box-shadow: 1px 1px 1px #000;	
+		transition: ease all 0.4s;/******************vendor****/
+		.check-now{
+			display: none;
+			transition: ease all 0.4s;
+		}
+		.ins-accept{
+			display: inline-block;
+			transition: ease all 0.4s;
+		}	
+		&:hover{
+			background:$brand-secondary;
+			border: none;
+			box-shadow: 5px 5px 5px #303030;
+			padding: 10px 60px;
+		}
+		&:hover .check-now{
+			display: inline-block;
+		}
+		&:hover .ins-accept{
+			display: none;
+		}		
+	}
+	.wpcf7-form-control{
+		width: 100%;
+		background-color: white;
+		border: 2px solid $brand-secondary;
+		transition: ease all 0.4s;
+		padding: 7px;
+		border-radius: 8px;
+		&:focus{
+			background-color:#e3e3e3;
+			border: 2px solid $brand-complimentary;
+			color: #303030;
+			outline: none;
+		}
+	}
+	.wpcf7-submit{
+		width: auto;
+		margin-top: 30px;
+		padding: 5px 45px !important;
+		border-radius: 25px;
+		background-color: $brand-secondary;
+		color: #fff;
+		transition: ease all 0.4s;
+		&:hover{
+			color:$brand-primary;
+		}
+	}		
+}
