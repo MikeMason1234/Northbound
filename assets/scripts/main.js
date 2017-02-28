@@ -39,81 +39,21 @@
               arrows: false,
               infinite: true
 
-            });            
-
-
-/*function isElementVisible($elementToBeChecked)
-{
-    var TopView = $(window).scrollTop();
-    var BotView = TopView + $(window).height();
-    var TopElement = $elementToBeChecked.offset().top;
-    var BotElement = TopElement + $elementToBeChecked.height();
-    return ((BotElement <= BotView) && (TopElement >= TopView));
-}
-
-$(window).one('scroll', function () {
-    $( ".counter" ).each(function() {
-        isOnView = isElementVisible($(this));
-        if(isOnView === true){
-            $({countNum: $('.counter').text()}).animate({countNum: 100  }, {
-                  duration: 1000,
-                  easing:'linear',
-                  step: function() {
-                     $('.counter').text(Math.floor(this.countNum));
-                  },
-                  complete: function() {
-                     $('.counter').text(this.countNum);
-
-                  }
             });
-        }
-    });
-});*/
-
-      });
-
-
-        //$(window).scroll(function(){
-           // if ($(document).scrollTop() <= 200 ){
-             // $('.social-icons-container').fadeIn();
-              //$('.logo-heading').css('line-height', '45px');
-              //$('.nts-logo').css('width', '100%');
-             // $('.social-cta-section').css({'height': '160px','padding':'20px 0px'});
-              //$('.contact-cta').removeClass('col-md-7').addClass('col-md-8');
-             // $('.logo-container').css('border-right', '1px solid #e3e3e3');
-              //$('.scroll-visible').animate({'opacity':'0','display': 'none'}, 200);
-             // $('.navbar').css({'background':'transparent','box-shadow':'none'});
-              //if ($(window).width() > 768){
-               // $('.nav-top-section').slideDown();
-              //}  
-             // $('.contact-number').css('display','none');
-
-              //$('li.menu-item-has-children a').css({'color':'white','font-weight':'300'});         
-           // }
-           // else{
-              //$('.social-icons-container').fadeOut();
-              //$('.logo-heading').css('line-height', '35px');
-              //$('.nts-logo').css('width', '75%');
-              //$('.social-cta-section').css({'height': '100px', 'padding': '0px'});
-              //$('.contact-cta').addClass('col-md-7').removeClass('col-md-8');
-             // $('.logo-container').css('border-right', 'none');
-              //$('.scroll-visible').css('display','block');  
-              //$('.scroll-visible').fadeIn();
-              //$('.scroll-visible').animate({'opacity':'1','display':'block'}, 200);
-              //$('.navbar').css({'background':'RGBA(0,32,66,.95)','box-shadow': '1px 1px 1px #000'}); 
-              //if ($(window).width() > 768){
-                //$('.nav-top-section').slideUp();
-              //} 
-              //$('.contact-number').css('display','block');
-              //$('li.menu-item-has-children a').css({'color':'#000', 'font-weight':'300'});
-        
-            //}
-       // });
-        $(document).ready(function(){
              $('.btn.contact-form').on('click',function(){
                 $('section.request').css('display','block');
                 $('.request-button').css('display','none');
              });
+
+            /* $('li.menu-item-has-children').hover(function(){
+               $('ul.sub-menu').addClass('animate fadeIn');
+               $('ul.sub-menu li').css('display','block');
+             }, function(){
+               $('ul.sub-menu').removeClass('animate fadeIn');
+               $('ul.sub-menu li').css('display','none');
+             });*/
+
+
         });
       },
       finalize: function() {

@@ -11,6 +11,6 @@
     "animate.css": "^3.5.2",
     "aos": "^2.1.1",
     "slick-carousel": "^1.6.0",
-    "jQuery.mmenu": "https://github.com/FrDH/jQuery.mmenu.git#^5.7.8"
+    "parallax.js": "^1.4.2"
   }
 }

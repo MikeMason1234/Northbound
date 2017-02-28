@@ -1,13 +1,13 @@
 header#navigation{
 	position: fixed;
 	width: 100%;
-	z-index: 1000;	
+	z-index: 1000;
 	ul#navigation-primary{
 		font-size: 1rem;
 		font-weight: 300;
 		font-family: $sans-serif-mont;
 		position: relative;
-		margin-top: 25px;		
+		margin-top: 25px;
 		li{
 			display: inline-block;
 			a{
@@ -22,12 +22,12 @@ header#navigation{
 				background: $brand-medium;
 				position: absolute;
 				padding: 0px;
-				font-size:90%;		
+				font-size:90%;
 				li{
 					display: none;
 					border-bottom: 1px solid #e3e3e3;
 					text-align: center;
-					transition:ease all 0.3s;		
+					transition:ease all 0.3s;
 					a{
 						padding-bottom:0;
 						color: #fff;
@@ -37,7 +37,7 @@ header#navigation{
 					}
 				}
 				&:hover li{
-					display:block; 
+					display:block;
 				}
 			}
 			&:hover{
@@ -48,13 +48,13 @@ header#navigation{
 						box-shadow: 1px 1px 1px #000;
 						border-top: 1px solid #e3e3e3;
 						border-right: 1px solid #e3e3e3;
-						border-left: 1px solid #e3e3e3;				
+						border-left: 1px solid #e3e3e3;
 					li{
 						display: block;
 						padding:10px;
 						margin: 0px;
 					}
-				}		
+				}
 			}
 			&:after{
 				font-family: 'FontAwesome';
@@ -68,7 +68,7 @@ header#navigation{
 		li#menu-item-21964{
 			ul.sub-menu{
 				top: 1.5rem;
-				left: 3rem;			
+				left: 3rem;
 			}
 		}
 		li#menu-item-21961{
@@ -83,11 +83,11 @@ header#navigation{
 				left: 23rem;
 			}
 		}
-	}	
+	}
 	.navbar{
 		border-radius: 0px !important;
 		background:RGBA(0,32,66,.95);
 		position: fixed;
 		width: 100%;
-	}	
+	}
 }

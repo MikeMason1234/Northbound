@@ -9,17 +9,17 @@ section#cta-header{
 @media only screen and (max-width: 960px){
 	section#cta-header{
 		height: 375px;
-	}	
+	}
 }
 @media only screen and (max-width: 768px){
 	section#cta-header{
 		height: 300px;
-	}	
+	}
 }
 @media only screen and (max-width: 480px){
 	section#cta-header{
 		height: 250px;
-	}	
+	}
 }*/
 @media only screen and (max-width: 1024px){
 
@@ -38,10 +38,10 @@ section#cta-header{
 		}
 		.head{
 			margin-top:30px !important;
-		}			
+		}
 	}
 	.home-video{
-		left: 128px !important;
+		/*left: 128px !important;*/
 	}
 	.testimonial{
 		blockquote{
@@ -49,7 +49,7 @@ section#cta-header{
 				top:20px !important;
 			}
 		}
-	}	
+	}
 	.footer-bottom{
 		.footer-nav{
 			a{
@@ -65,12 +65,12 @@ section#cta-header{
 				}
 			}
 		}
-	}	
+	}
 }
 @media only screen and (max-width: 767px){
 	body{
 		font-size: 0.7em !important;
-	}	
+	}
 	.sidebar-primary{
 		.col-md-4{
 			border-left: 2px solid #e3e3e3;
@@ -78,7 +78,7 @@ section#cta-header{
 			.box{
 				margin: 20px;
 			}
-		}	
+		}
 	}
 	.footer-bottom{
 		.footer-nav{
@@ -97,12 +97,12 @@ section#cta-header{
 		}
 		.head{
 			margin-top:30px !important;
-		}			
+		}
 	}
 	.home-video{
 		width: 100% !important;
 		position: inherit !important;
-	}		
+	}
 }
 
 @media only screen and (max-width: 480px){
@@ -138,14 +138,14 @@ section#cta-content{
 				text-align: center;
 				font-weight: 400;
 				animation-delay: .4s;
-			}		
+			}
 			h3{
 				text-align: center;
 				transition: ease all 0.4s;
 				a{
 					border: 2px solid white;
 					font-weight: 300;
-					padding: 15px 40px;		
+					padding: 15px 40px;
 					color: white;
 					transition: ease all 0.4s;
 					&:hover{
@@ -222,11 +222,11 @@ p{
 			text-decoration: none !important;
 		}
 		.blog-item{
-			transition: ease all 0.4s;		
+			transition: ease all 0.4s;
 			.blog-img{
 				min-height: 350px;
 				background-size: 100% !important;
-				transition: ease all 0.4s;		
+				transition: ease all 0.4s;
 				.blog-title,.blog-meta,.blog-summary{
 					color: #ffffff;
 					text-shadow: 1px 1px 1px #000000;
@@ -239,15 +239,15 @@ p{
 				figcaption{
 					padding:50px 50px 50px 50px;
 					transition: ease all 0.4s;
-				}			
+				}
 			}
 			&:hover .blog-img{
 				background-size: 110% !important;
 			}
 			&:hover figcaption{
 				padding: 40px 50px 50px 50px;
-			}				
-		}		
+			}
+		}
 	}
 }
 
@@ -266,7 +266,7 @@ footer.paginate{
 		}
 		.nav-preious{
 			text-align: left;
-		}	
+		}
 	}
 }
 
@@ -316,7 +316,7 @@ a.hidden{
 	}
 	&:hover::after{
 		transform: scaleY(1);
-	}	
+	}
 }
 .learn-more{
 	text-align: center;
@@ -348,7 +348,7 @@ a.hidden{
 	}
 	&:hover .box-text{
 		display: none;
-	}	
+	}
 }
 .no-content:after{
 	content: none !important;
@@ -362,7 +362,7 @@ a.hidden{
 	p{
 		color: white !important;
 		text-align: center;
-	}	
+	}
 	.footer-nav{
 		display: inline;
 		a{
@@ -379,7 +379,7 @@ a.hidden{
 	}
 	.accredited-section{
 		border-bottom: 1px solid #e3e3e3 !important;
-		padding-bottom:20px;		
+		padding-bottom:20px;
 		.accredited-logo{
 			display: inline;
 			width: auto;
@@ -412,7 +412,7 @@ a.hidden{
 		color: $brand-secondary;
 		text-decoration: none;
 	}
-}	
+}
 
 blockquote{
 font-style: italic;
@@ -420,33 +420,40 @@ color:RGBA(76,185,231,0.8);
 padding: 20px;
 text-align: center;
 border: 2px solid RGBA(76,185,231,.8);
-	&::before{
+	h3{
+		color: white;
+		font-style: italic;
+		text-align: center;
+	}
+	/*&::before{
 		content:'\201C';
 		color: RGBA(76,185,231,0.8);
 		font-size: 6em;
 		line-height: 0.1em;
-		vertical-align: -0.4em;
-		margin-right: 0.25em;
-		display: inline;
+		display: flex;
+		top: 6rem;
+		left: 5rem;
+		position: absolute;
 	}
 	&::after{
 		content: '\201D';
 		color: RGBA(76,185,231,0.8);
 		font-size: 6em;
 		line-height: 0.1em;
-		vertical-align: -0.4em;
-		margin-right: 0.25em;	
-		display: inline;		
-	}
+		display: flex;
+		top: 6rem;
+		left: 62rem;
+		position: absolute;
+	}*/
 	p{
 		font-size: 1.5em;
 		display: inline;
 		text-align: center;
 	}
-}	
+}
 
 
-	
+
 /**********=========================== NEW SIDEBAR PRIMARY CTA STYLE ===========================**************/
 
 .white{
@@ -480,7 +487,7 @@ border: 2px solid RGBA(76,185,231,.8);
 	}
 	.col-md-4:nth-of-type(odd),.col-md-12{
 		border-left: 2px solid #e3e3e3;
-		border-right: 2px solid #e3e3e3;		
+		border-right: 2px solid #e3e3e3;
 	}
 	.box{
 		height: 200px;
@@ -517,7 +524,7 @@ border: 2px solid RGBA(76,185,231,.8);
 			width: 100%;
 			height: 100%;
 			background-color: RGBA(0,32,66,0.55);
-		}		
+		}
 	}
 		a{
 		color: #fff;
@@ -562,7 +569,7 @@ video.home-video{
 		li.slick-active button:before{
 			color: white;
 			opacity: .85;
-		}	
+		}
 	}
 	blockquote{
 		font-size:1.3em;
@@ -586,10 +593,10 @@ video.home-video{
 				color: RGBA(239,111,0,0.6);
 				font-size: 6em;
 				line-height: 0.1em;
-				vertical-align: -0.4em;	
+				vertical-align: -0.4em;
 				display: inline;
 				position: relative;
-				left: 137%;		
+				left: 27rem;
 			}
 			p{
 				font-size: 2.5em;

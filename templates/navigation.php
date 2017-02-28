@@ -23,7 +23,7 @@
           <div class="col-md-9 text-xs-right hidden-md-down">
             <?php
             wp_nav_menu([
-            'theme_location' => 'primary_navigation', 
+            'theme_location' => 'primary_navigation',
             'menu_class' => 'nav navbar-nav',
             'menu_id' => 'navigation-primary',
             'depth' => 0,
@@ -48,7 +48,7 @@
           <div class="col-md-9 text-xs-right hidden-md-down">
             <?php
             wp_nav_menu([
-            'theme_location' => 'primary_navigation', 
+            'theme_location' => 'primary_navigation',
             'menu_class' => 'nav navbar-nav',
             'menu_id' => 'navigation-primary',
             'depth' => 0,
@@ -61,9 +61,9 @@
           </div>-->
         </div>
       </div>
-    </div>  
+    </div>
     <!--<div class="hidden-lg-down">
               <button class="btn contact-number"><span class="ins-accept">Insurance Accepted</span><span class="check-now">Verify Insurance Now!</span> <i class="fa fa-arrow-right"></i></button>
-    </div>-->          
+    </div>-->
   </nav>
 </header>

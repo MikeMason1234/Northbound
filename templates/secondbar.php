@@ -1,5 +1,5 @@
 <?php //sidebar-two ?>
-<section class="testimonial">
+<!--<section class="testimonial">
 <div class="overlay">
 <div class="container test-box">
 <div class="col-md-12">
@@ -12,4 +12,4 @@
 </div>
 </div>
 </div>
-</section>
+</section>-->
